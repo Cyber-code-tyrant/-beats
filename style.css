@@ -12,7 +12,7 @@ body {
     background-color: rgba(0, 0, 0, 0.185);
     overflow: hidden;
     overflow-y: auto;
-    height: 70%;
+    height: 40%;
 }
 
 .primary-body::-webkit-scrollbar {
