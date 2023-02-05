@@ -1,0 +1,88 @@
+/* General */
+body {
+    background-image: url(img/road.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+
+.primary-body {
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.185);
+    overflow: hidden;
+    overflow-y: auto;
+    height: 70%;
+}
+
+.primary-body::-webkit-scrollbar {
+    display: none;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 16px;
+    border-radius: 15px;
+}
+.contents img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-size: contain;
+    background-position: center;
+}
+.sub-contents{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.sub-content{
+    color: rgba(255, 255, 255, 0.541);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 29px;
+    padding: 8px;
+}
+nav {
+    position: fixed;
+    top: 0;
+}
+
+.introtxt {
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 15px;
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid rgb(100, 171, 199);
+    color: rgb(100, 171, 199);
+    font-family: cursive;
+}
+
+.introtxt p {
+    font-family: cursive;
+    font-size: 10px;
+}
+
+
+
+.headers1 {
+    color: rgb(51, 51, 207);
+    background-color: rgba(245, 245, 220, 0.603);
+    width: 100%;
+    text-decoration: underline;
+
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+}
