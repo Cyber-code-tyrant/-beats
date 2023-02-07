@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-position: center;
+
 }
 
 .primary-body {
@@ -13,6 +14,7 @@ body {
     overflow: hidden;
     overflow-y: auto;
     height: 48%;
+
 }
 
 .primary-body::-webkit-scrollbar {
@@ -64,7 +66,6 @@ nav {
     border-radius: 50%;
     border: 2px solid rgb(100, 171, 199);
     color: rgb(100, 171, 199);
-    font-family: cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,4 +96,12 @@ nav {
 .services{
 background-color: rgba(0, 0, 0, 0.747);
 padding: 8px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* color: rgb(68, 125, 148); */
+color: white;
+}
+.service-heading{
+    /* color: rgb(223, 213, 213); */
+    color: white;
+
 }
